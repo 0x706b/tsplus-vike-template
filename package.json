@@ -1,0 +1,43 @@
+{
+  "scripts": {
+    "dev": "vike dev",
+    "build": "vike build",
+    "preview": "vike build && vike preview",
+    "lint": "eslint .",
+    "format": "prettier -l -w .",
+    "shadcn": "npx shadcn@latest",
+    "postinstall": "tsplus-install"
+  },
+  "dependencies": {
+    "@fncts/eslint-config": "^0.0.27",
+    "@radix-ui/react-icons": "^1.3.2",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.577.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "tailwind-merge": "^3.5.0",
+    "tw-animate-css": "^1.4.0",
+    "vike": "^0.4.255",
+    "vike-react": "^0.6.21"
+  },
+  "devDependencies": {
+    "@0x706b/tsplus-installer": "^0.0.189",
+    "@eslint/js": "^9.39.4",
+    "@rollup/pluginutils": "^5.3.0",
+    "@tailwindcss/vite": "^4.2.1",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.2.0",
+    "eslint": "^9.39.4",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^17.4.0",
+    "prettier": "^3.8.1",
+    "tailwindcss": "^4.2.1",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.57.0",
+    "vite": "^7.3.1"
+  },
+  "type": "module",
+  "packageManager": "yarn@4.13.0"
+}
